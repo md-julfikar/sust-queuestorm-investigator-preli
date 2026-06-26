@@ -12,7 +12,9 @@ The system is **not** an autonomous financial decision maker. It does not execut
 
 ## Live API
 
-**Base URL:** https://sust-queuestorm-investigator.vercel.app/
+**Base URL:** https://sust-queuestorm-investigator.vercel.app
+**Base URL 2 (from AWS Poridhi VM):** http://18.139.116.190:8000
+
 
 Required endpoints:
 
