@@ -12,7 +12,7 @@ The system is **not** an autonomous financial decision maker. It does not execut
 
 ## Live API
 
-**Base URL:** `PASTE_YOUR_DEPLOYED_BASE_URL_HERE`
+**Base URL:** https://sust-queuestorm-investigator.vercel.app/
 
 Required endpoints:
 
@@ -24,7 +24,7 @@ POST /analyze-ticket
 Health check:
 
 ```bash
-curl PASTE_YOUR_DEPLOYED_BASE_URL_HERE/health
+curl https://sust-queuestorm-investigator.vercel.app/health
 ```
 
 Expected response:
@@ -38,7 +38,7 @@ Expected response:
 Analyze ticket:
 
 ```bash
-curl -X POST PASTE_YOUR_DEPLOYED_BASE_URL_HERE/analyze-ticket \
+curl -X POST https://sust-queuestorm-investigator.vercel.app/analyze-ticket \
   -H "Content-Type: application/json" \
   --data-binary @sample_request.json
 ```
@@ -46,13 +46,13 @@ curl -X POST PASTE_YOUR_DEPLOYED_BASE_URL_HERE/analyze-ticket \
 > For submission, provide only the base URL, for example:
 >
 > ```text
-> https://your-service.example.com
+>https://sust-queuestorm-investigator.vercel.app/
 > ```
 >
 > Do not submit:
 >
 > ```text
-> https://your-service.example.com/health
+> https://sust-queuestorm-investigator.vercel.app/health
 > ```
 
 ---
